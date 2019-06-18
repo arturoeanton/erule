@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f4d68dd-1e10-4e14-96fc-d18b58c9bf1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/erule.go" beforeDir="false" afterPath="$PROJECT_DIR$/erule.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erule_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="510">
+              <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="80" />
               <folding>
                 <element signature="e#20#91#0" expanded="true" />
               </folding>
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/erule.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="366">
+              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding>
                 <element signature="e#15#77#0" expanded="true" />
               </folding>
@@ -52,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/erule_test.go" />
+        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/erule.go" />
       </list>
     </option>
@@ -104,12 +105,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestFire in erule_test.go">
-    <configuration name="go build mod" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/arturoeanton/erule">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="erule" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="DIRECTORY" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/arturoeanton/erule" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -124,15 +126,25 @@
       <pattern value="^TestFire$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFire in mod" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFire2 in github.com/arturoeanton/erule" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="erule" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="mod" />
+      <package value="github.com/arturoeanton/erule" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFire$" />
+      <pattern value="^TestFire2$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/arturoeanton/erule" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="erule" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/arturoeanton/erule" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go test mod" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -146,62 +158,64 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build mod" />
-      <item itemvalue="Go Test.TestFire in mod" />
       <item itemvalue="Go Test.go test mod" />
       <item itemvalue="Go Test.TestFire in erule_test.go" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Test.TestFire2 in github.com/arturoeanton/erule" />
+      <item itemvalue="Go Test.go test github.com/arturoeanton/erule" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/arturoeanton/erule" />
+        <item itemvalue="Go Test.TestFire2 in github.com/arturoeanton/erule" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestFire in erule_test.go" />
         <item itemvalue="Go Test.go test mod" />
-        <item itemvalue="Go Test.TestFire in mod" />
-        <item itemvalue="Go Build.go build mod" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 44m 01s.xml">
-      <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 07s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 44m 51s.xml">
-      <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 12s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 45m 42s.xml">
-      <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 14s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 47m 55s.xml">
-      <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 15s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 49m 41s.xml">
-      <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 16s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 51m 25s.xml">
-      <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 18s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 52m 03s.xml">
-      <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 20s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 52m 29s.xml">
-      <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 21s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 52m 35s.xml">
-      <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 33s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 53m 08s.xml">
-      <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 34s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28674698" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28674698" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -224,11 +238,13 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.go" />
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/erule_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="510">
+          <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="80" />
           <folding>
             <element signature="e#20#91#0" expanded="true" />
           </folding>
@@ -237,8 +253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/erule.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="366">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
           <folding>
             <element signature="e#15#77#0" expanded="true" />
           </folding>

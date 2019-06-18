@@ -21,17 +21,16 @@ func Fire(str string, jsonString string) (int, []string, error) {
 	if err := json.Unmarshal([]byte(str), &p); err != nil {
 		return 0, nil, fmt.Errorf("Execute error: %v\n", err)
 	}
-	return fire(p, jsonString)
-}
-
-func fire(p Politics, jsonString string) (int, []string, error) {
-
 	dataByt := []byte(jsonString)
 	var data map[string]interface{}
 	if err := json.Unmarshal(dataByt, &data); err != nil {
 		return 0, nil, fmt.Errorf("Execute error: %v\n", err)
 	}
 
+	return fire(p, data)
+}
+
+func fire(p Politics, data interface{}) (int, []string, error) {
 	risk := 0
 	var path []string
 	env := vm.NewEnv()
