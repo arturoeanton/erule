@@ -16,11 +16,19 @@ type Rule struct {
 	Code  string `json:"code"`
 }
 
-func Fire(p Politics, json_string string)  ( int,  []string,  error) {
+func Fire(str string, jsonString string) (int, []string, error) {
+	p := Politics{}
+	if err := json.Unmarshal([]byte(str), &p); err != nil {
+		return 0, nil, fmt.Errorf("Execute error: %v\n", err)
+	}
+	return fire(p, jsonString);
+}
 
-	byt := []byte(json_string)
+func fire(p Politics, jsonString string) (int, []string, error) {
+
+	dataByt := []byte(jsonString)
 	var data map[string]interface{}
-	if err := json.Unmarshal(byt, &data); err != nil {
+	if err := json.Unmarshal(dataByt, &data); err != nil {
 		return 0, nil, fmt.Errorf("Execute error: %v\n", err)
 	}
 
