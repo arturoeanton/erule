@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f4d68dd-1e10-4e14-96fc-d18b58c9bf1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/erule.go" beforeDir="false" afterPath="$PROJECT_DIR$/erule.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erule_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/erule_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erule_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+            <state relative-caret-position="240">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="e#20#91#0" expanded="true" />
               </folding>
@@ -25,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/erule.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="495">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#15#77#0" expanded="true" />
               </folding>
@@ -54,8 +53,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/erule.go" />
         <option value="$PROJECT_DIR$/erule_test.go" />
+        <option value="$PROJECT_DIR$/erule.go" />
       </list>
     </option>
   </component>
@@ -162,9 +161,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 42m 46s.xml">
-      <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 44m 01s.xml">
       <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -190,6 +186,9 @@
       <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 52m 35s.xml">
+      <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestFire_in_erule_test_go - 2019.06.17 at 22h 53m 08s.xml">
       <configuration name="TestFire in erule_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -226,22 +225,22 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.go" />
-    <entry file="file://$PROJECT_DIR$/erule.go">
+    <entry file="file://$PROJECT_DIR$/erule_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
-            <element signature="e#15#77#0" expanded="true" />
+            <element signature="e#20#91#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erule_test.go">
+    <entry file="file://$PROJECT_DIR$/erule.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <element signature="e#20#91#0" expanded="true" />
+            <element signature="e#15#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
