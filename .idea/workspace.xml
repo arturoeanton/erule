@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f4d68dd-1e10-4e14-96fc-d18b58c9bf1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/erule.go" beforeDir="false" afterPath="$PROJECT_DIR$/erule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/erule_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/erule_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/erule_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="80" />
+            <state relative-caret-position="395">
+              <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
               <folding>
                 <element signature="e#20#91#0" expanded="true" />
               </folding>
@@ -25,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erule.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="-325">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding>
                 <element signature="e#15#77#0" expanded="true" />
               </folding>
@@ -53,9 +53,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/erule_test.go" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/erule.go" />
+        <option value="$PROJECT_DIR$/erule_test.go" />
       </list>
     </option>
   </component>
@@ -175,18 +175,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 07s.xml">
-      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 12s.xml">
-      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 14s.xml">
-      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 15s.xml">
-      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 16s.xml">
       <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -205,17 +193,29 @@
     <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 10h 15m 34s.xml">
       <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 12h 04m 27s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 14h 07m 15s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 14h 08m 15s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_github_com_arturoeanton_erule - 2019.06.18 at 14h 08m 30s.xml">
+      <configuration name="go test github.com/arturoeanton/erule" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28674698" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28674698" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -241,22 +241,22 @@
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/erule_test.go">
+    <entry file="file://$PROJECT_DIR$/erule.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="80" />
+        <state relative-caret-position="-325">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
-            <element signature="e#20#91#0" expanded="true" />
+            <element signature="e#15#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erule.go">
+    <entry file="file://$PROJECT_DIR$/erule_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="395">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
           <folding>
-            <element signature="e#15#77#0" expanded="true" />
+            <element signature="e#20#91#0" expanded="true" />
           </folding>
         </state>
       </provider>

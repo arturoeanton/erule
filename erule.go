@@ -16,7 +16,21 @@ type Rule struct {
 	Code  string `json:"code"`
 }
 
+const (
+	RISK    	int  = 0
+	FIRST_RULE  int  = 1
+)
+
 func Fire(str string, jsonString string) (int, []string, error) {
+	return fireMode(str, jsonString, RISK )
+}
+
+func FireFirstRule(str string, jsonString string) (string, error) {
+	_ , path , err := fireMode(str, jsonString, FIRST_RULE )
+	return  path[0], err
+}
+
+func fireMode(str string, jsonString string, mode int ) (int, []string, error) {
 	p := Politics{}
 	if err := json.Unmarshal([]byte(str), &p); err != nil {
 		return 0, nil, fmt.Errorf("Execute error: %v\n", err)
@@ -27,10 +41,10 @@ func Fire(str string, jsonString string) (int, []string, error) {
 		return 0, nil, fmt.Errorf("Execute error: %v\n", err)
 	}
 
-	return fire(p, data)
+	return fire(p, data, mode )
 }
 
-func fire(p Politics, data interface{}) (int, []string, error) {
+func fire(p Politics, data interface{}, mode int) (int, []string, error) {
 	risk := 0
 	var path []string
 	env := vm.NewEnv()
@@ -45,9 +59,14 @@ func fire(p Politics, data interface{}) (int, []string, error) {
 			return 0, nil, fmt.Errorf("Execute error: %v\n", err)
 		}
 		if flag.(bool) {
+
 			risk += rule.Point
 			path = append(path, rule.Name)
+			if mode == FIRST_RULE {
+				return 0, path, err
+			}
 		}
+
 	}
 	return risk, path, nil
 }

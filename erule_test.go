@@ -57,3 +57,22 @@ func TestFire3(t *testing.T) {
 	}
 
 }
+
+
+func TestFire4(t *testing.T) {
+
+	p := `{ 
+	"name": "first example", 
+	"rules":[	 
+		{"name": "rule A", "point": 1, "code": "data.expo != 1 &&  data.ou == \"payroll\""}, 
+		{"name": "rule B", "point": 11, "code": "data.expo != 2"}
+		]
+	}`
+
+	path, _ :=  erule.FireFirstRule(p, `{"expo":1, "ou":"payroll","list":["a","b"]}`)
+	t.Log(path)
+	if path != "rule B" {
+		t.Errorf("risk bad value")
+	}
+
+}
