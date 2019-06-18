@@ -1,10 +1,26 @@
 package erule_test
 
-import "testing"
+import (
+	"github.com/arturoeanton/erule"
+	"testing"
+)
 
 func TestFire(t *testing.T) {
+	p := erule.Politics{
+		Name: "first rule",
+		Rules: []erule.Rule{
+			{Name: "first rule", Point: 1, Code: `data.expo == 1`},
+			{Name: "second rule", Point: 10, Code: `data.ou == "payroll"`},
+			{Name: "third rule", Point: 11, Code: `data.expo == 2`},
+		},
+	}
+	risk, _, _ :=  erule.Fire(p, `{"expo":1, "ou":"payroll","list":["a","b"]}`)
+	if risk != 11 {
+
+	}
 
 }
+
 /*
 package main
 
