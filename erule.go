@@ -31,11 +31,11 @@ type Rule struct {
 }
 
 type ResponseFirst struct {
-	Value string
+	Value string `json:"value"`
 }
 type ResponseRisk struct {
-	Value int
-	Path  []string
+	Value int `json:"value"`
+	Path  []string `json:"path"`
 }
 
 func Fire(str string, jsonString string, params ...interface{}) (string, interface{}, error) {
