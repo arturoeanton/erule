@@ -94,6 +94,10 @@ func fire(p Politics, data interface{}, params ...interface{}) (string, interfac
 		if flag {
 			risk += rule.Point
 			path = append(path, rule.Name)
+
+			vm.Set("value", risk)
+			vm.Set("path", path)
+
 			if p.Mode == MODE_FIRST {
 				break
 			}
