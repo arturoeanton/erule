@@ -38,11 +38,17 @@ type ResponseRisk struct {
 	Path  []string `json:"path"`
 }
 
-func Fire(str string, jsonString string, params ...interface{}) (string, interface{}, error) {
-	return fireMode(str, jsonString, params)
+func Fire(str string, jsonString string) (string, interface{}, error) {
+	vm :=  otto.New()
+	return FireWithOttoVM(str,jsonString, vm )
 }
 
-func fireMode(str string, jsonString string, params ...interface{}) (string, interface{}, error) {
+
+func FireWithOttoVM(str string, jsonString string, vm *otto.Otto) (string, interface{}, error) {
+	return fireMode(str, jsonString, vm)
+}
+
+func fireMode(str string, jsonString string, vm *otto.Otto) (string, interface{}, error) {
 	p := Politics{}
 	if err := json.Unmarshal([]byte(str), &p); err != nil {
 		return ERROR, nil, fmt.Errorf("Execute error: %v\n", err)
@@ -53,23 +59,21 @@ func fireMode(str string, jsonString string, params ...interface{}) (string, int
 		return ERROR, nil, fmt.Errorf("Execute error: %v\n", err)
 	}
 
-	return fire(p, data, params)
+	return fire(p, data, vm)
 }
 
-func fire(p Politics, data interface{}, params ...interface{}) (string, interface{}, error) {
+func fire(p Politics, data interface{}, vm *otto.Otto) (string, interface{}, error) {
 	risk := 0
 	var path []string
-	vm := otto.New()
+	if vm == nil{
+		vm = otto.New()
+	}
 
 	err := vm.Set("data", data)
 	if err != nil {
 		return ERROR, nil, fmt.Errorf("Execute error(data): %v\n", err)
 	}
 
-	err = vm.Set("params", params)
-	if err != nil {
-		return ERROR, nil, fmt.Errorf("Execute error(params): %v \n", err)
-	}
 
 	if p.Before != "" {
 		vm.Run(p.Before)
